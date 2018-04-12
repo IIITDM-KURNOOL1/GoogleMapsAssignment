@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logingradient"
+    tools:context="com.example.user.assignmentmap.LoginPage">
+    <EditText
+        android:id="@+id/emailId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="Email"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_below="@+id/emailId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:hint="password"
+        />
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:text="Don't have a account Sign Up from here "
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold|italic"
+
+        />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Login"
+        android:gravity="center"
+        android:elevation="4dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+
+</RelativeLayout>

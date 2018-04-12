@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">assignmentmap</string>
+    <string name="title_activity_maps">Map</string>
+
+    <array name="items">
+        <item>Owner</item>
+        <item>Guest</item>
+    </array>
+</resources>
